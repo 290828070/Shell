@@ -10,3 +10,7 @@ unset
 单引号
 str='this'  不能有变量
 str="this $your_name"  可以有变量
+拼接
+echo $str1 $str2
+获取字符串长度
+echo ${#your_name}
