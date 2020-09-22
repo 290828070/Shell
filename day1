@@ -4,3 +4,9 @@ your_name="alex"
 echo ${your_name}
 只读
 readonly your_name 
+删除
+unset
+字符串
+单引号
+str='this'  不能有变量
+str="this $your_name"  可以有变量
