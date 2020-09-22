@@ -1,0 +1,6 @@
+shell
+变量
+your_name="alex"
+echo ${your_name}
+只读
+readonly your_name 
